@@ -1,0 +1,47 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #single-instructor {
+        margin: 100px 0;
+
+        .instructor-image {
+            height: 230px;
+        }
+
+        .single-instructor-content {
+            margin-top: 0;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    #single-course {
+        .single-course-hero {
+            height: 450px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .single-course-content {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+    }
+
+    #single-instructor {
+
+        .instructor-image {
+            height: 350px;
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

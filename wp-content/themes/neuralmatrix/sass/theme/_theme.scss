@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@300;400;600&display=swap');
+
+// Single Course Styles
+#single-course {
+    .single-course-hero {
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .single-course-content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+// Single Instructor Styles
+#single-instructor {
+    margin: 25px 0;
+
+    .instructor-image {
+        height: 350px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .single-instructor-content {
+        margin-top: 25px;
+
+        .instructor-details {
+            margin-bottom: 30px;
+
+            .entry-title {
+                margin-bottom: 5px;
+            }
+
+            p {
+                margin: 0;
+
+                &:first-of-type {
+                    margin: 0 0 5px;
+                }
+            }
+        }
+
+        h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: $secondary;
+        }
+
+        hr {
+            margin: 15px 0;
+        }
+    }
+}
