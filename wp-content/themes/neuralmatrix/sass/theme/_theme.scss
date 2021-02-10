@@ -57,3 +57,131 @@
         }
     }
 }
+
+// Single Instructor, Single Course and Home Page Banner Styles
+#banner {
+    background: $secondary;
+    text-align: center;
+
+    .banner-details {
+        padding: 25px 0;
+        color: $white;
+
+        .header-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// About us
+#about-us {
+    margin: 60px 0;
+}
+
+// Home
+#hero-section {
+    padding: 0;
+
+    .carousel-indicators {
+        bottom: 50px;
+    }
+
+    .carousel-item {
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #hero-content {
+        color: $white;
+        padding-top: 80px;
+
+        .header-title {
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+
+        .header-lead {
+            font-weight: 300;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+#training-section {
+    background: $gray;
+
+    .training-section-container {
+        background: $gray;
+        position: relative;
+        bottom: 50px;
+        padding: 15px;
+
+        .training-card {
+            padding-bottom: 15px;
+
+            .training-card-wrapper {
+                border: 1px solid $light-gray;
+
+                .training-img {
+                    height: 200px;
+                    background-size: cover;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+
+                .training-body {
+                    padding: 15px;
+
+                    .training-link {
+                        hr {
+                            width: 30px;
+                            margin: 0px 10px 5px 0;
+                            padding: 0;
+                            display: inline-block;
+                            background: $light-gray;
+                        }
+
+                        a {
+                            font-weight: 800;
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+
+        .body-title {
+            margin: 0 auto;
+            text-decoration: underline;
+            color: $black;
+            margin-top: 20px;
+        }
+    }
+}
+
+#home-banner {
+    background: $primary;
+    text-align: center;
+
+    .banner-details {
+        padding: 80px 0;
+        color: $white;
+
+        .header-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .primary-button {
+            background: $secondary;
+        }
+
+        .strong-lead {
+            font-weight: 800;
+            color: $secondary;
+        }
+    }
+}

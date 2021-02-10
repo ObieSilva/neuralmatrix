@@ -43,6 +43,13 @@ foreach ( $understrap_includes as $file ) {
 	require_once $understrap_inc_dir . $file;
 }
 
+// Customize excerpt word count lenght
+add_filter( 'excerpt_length', function($length) {
+	return 5;
+	} );
+
+add_filter('the_excerpt', 'custom_short_excerpt');
+
 // Default Theme ACF Fields
 include_once('custom-functions.php');
 
@@ -123,7 +130,7 @@ function cptui_register_my_cpts_course() {
 		"query_var" => true,
 		"menu_position" => 5,
 		"menu_icon" => "dashicons-pressthis",
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail", "excerpt" ],
 	];
 
 	register_post_type( "course", $args );

@@ -18,5 +18,8 @@ $container = get_theme_mod( 'understrap_container_type' );
     </div><!-- .container .single-course-content -->
 </section><!-- #single-course -->
 
+<!-- \\\ ****** Banner Section \\\ ****** -->
+<?php get_template_part('loop-templates/content-banner', 'page');?>
+
 <?php
 get_footer();

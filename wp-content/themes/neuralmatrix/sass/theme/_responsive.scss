@@ -21,6 +21,12 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    #hero-section {
+        .carousel-item {
+            height: 450px;
+        }
+    }
+
     #single-course {
         .single-course-hero {
             height: 450px;
@@ -30,8 +36,8 @@
         }
 
         .single-course-content {
-            margin-top: 100px;
-            margin-bottom: 100px;
+            margin-top: 60px;
+            margin-bottom: 60px;
         }
     }
 
@@ -39,6 +45,22 @@
 
         .instructor-image {
             height: 350px;
+        }
+    }
+
+    #banner {
+        .banner-details {
+            padding: 60px 0;
+        }
+    }
+
+    #body-content {
+        .body-image {
+            height: 1500px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: -20px 0;
         }
     }
 }

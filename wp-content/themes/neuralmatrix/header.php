@@ -18,6 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script src="https://kit.fontawesome.com/4a9f4c6334.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -37,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php endif; ?>
 			<!-- Logo Start -->
 
-			<!-- Logo End0 -->
+			<!-- Logo End -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
 				</button>

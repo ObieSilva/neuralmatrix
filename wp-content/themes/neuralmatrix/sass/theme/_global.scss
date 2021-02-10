@@ -86,6 +86,10 @@ pre {
 
 a {
     background-color: transparent;
+
+    &:hover {
+        text-decoration: auto;
+    }
 }
 
 /**
@@ -386,7 +390,7 @@ template {
      ========================================================================== */
 
 /**
-   * Custom font-size for page title
+   * Custom font-size for website titles
    */
 
 .entry-title {
@@ -395,7 +399,20 @@ template {
     font-weight: 800;
     line-height: 1.2;
     letter-spacing: .022em;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    font-size: 3.875rem;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 15px;
+}
+
+.body-title {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: $primary;
 }
 
 /**
@@ -411,4 +428,96 @@ template {
    */
 .all-caps {
     text-transform: uppercase;
+}
+
+/**
+   * Hero Image
+   */
+.primary-button {
+    display: inline-block;
+    background: $primary;
+    padding: 8px 20px;
+    margin: 8px;
+    border: 1px solid $primary;
+
+    a {
+        color: $white;
+    }
+}
+
+.secondary-button {
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid $white;
+    padding: 8px 20px;
+
+    a {
+        color: $white;
+    }
+}
+
+/**
+   * Buttons
+   */
+.primary-button {
+    display: inline-block;
+    background: $primary;
+    padding: 8px 20px;
+    margin: 8px;
+    border: 1px solid $primary;
+
+    a {
+        color: $white;
+    }
+}
+
+.secondary-button {
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid $white;
+    padding: 8px 20px;
+
+    a {
+        color: $white;
+    }
+}
+
+.inverted-button {
+    padding: 8px 20px;
+    background: $secondary;
+    margin-top: 15px;
+    display: inline-block;
+
+    a {
+        color: $white;
+    }
+}
+
+/**
+   * Hero Image
+   */
+#hero-image {
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/**
+   * Aligns Items Vertically
+
+.v-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+   */
+
+
+/**
+    * Removes Padding
+    */
+
+.no-padding {
+    padding: 0 !important;
 }
